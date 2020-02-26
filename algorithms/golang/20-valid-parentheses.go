@@ -1,5 +1,6 @@
 package main
 
+// Stack Data structure implementation of the stack
 type Stack struct {
 	top int
 	arr []rune
