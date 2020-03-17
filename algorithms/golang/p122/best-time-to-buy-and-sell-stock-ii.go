@@ -1,7 +1,9 @@
-package main
+package p122
 
-// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
-func maxProfit(prices []int) int {
+// URL: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
+
+// MaxProfit best time to buy and sell stock
+func MaxProfit(prices []int) int {
 	profit := 0
 	length := len(prices) - 1
 	for i := 0; i < length; i++ {

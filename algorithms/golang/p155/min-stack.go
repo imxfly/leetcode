@@ -1,4 +1,6 @@
-package main
+package p155
+
+// URL: https://leetcode-cn.com/problems/min-stack/
 
 // MinStack stack
 type MinStack struct {

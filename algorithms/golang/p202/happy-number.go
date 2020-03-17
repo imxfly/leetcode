@@ -1,9 +1,9 @@
-package main
+package p202
 
-// https://leetcode-cn.com/problems/happy-number
+// URL: https://leetcode-cn.com/problems/happy-number
 
-// 用哈希表来解
-func isHappy(n int) bool {
+// IsHappy happy number
+func IsHappy(n int) bool {
 	var nums = make(map[int]bool)
 
 	for n != 1 {

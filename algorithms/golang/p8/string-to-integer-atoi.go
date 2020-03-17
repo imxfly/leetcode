@@ -1,11 +1,13 @@
-package main
+package p8
 
 import (
 	"strings"
 )
 
-// https://leetcode-cn.com/problems/string-to-integer-atoi/
-func myAtoi(str string) int {
+// URL: https://leetcode-cn.com/problems/string-to-integer-atoi/
+
+// MyAtoi convert string to int
+func MyAtoi(str string) int {
 	str = strings.Trim(str, " ")
 	if len(str) < 1 {
 		return 0

@@ -1,7 +1,9 @@
-package main
+package p134
 
-// https://leetcode-cn.com/problems/gas-station/
-func canCompleteCircuit(gas []int, cost []int) int {
+// URL: https://leetcode-cn.com/problems/gas-station/
+
+// CanCompleteCircuit gas station
+func CanCompleteCircuit(gas []int, cost []int) int {
 	length := len(gas)
 
 	for i := 0; i <= length; i++ {

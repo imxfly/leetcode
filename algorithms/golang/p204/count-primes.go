@@ -1,7 +1,9 @@
-package main
+package p204
 
-// https://leetcode-cn.com/problems/count-primes/
-func countPrimes(n int) int {
+// URL: https://leetcode-cn.com/problems/count-primes/
+
+// CountPrimes count primes
+func CountPrimes(n int) int {
 	ht := make([]int, n+1)
 
 	for i := 2; i*i < n; i++ {

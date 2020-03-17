@@ -1,7 +1,9 @@
-package main
+package p136
 
-// https://leetcode-cn.com/problems/single-number/
-func singleNumber(nums []int) int {
+// URL: https://leetcode-cn.com/problems/single-number/
+
+// SingleNumber single number
+func SingleNumber(nums []int) int {
 	var num2cnt = make(map[int]int)
 
 	for _, num := range nums {

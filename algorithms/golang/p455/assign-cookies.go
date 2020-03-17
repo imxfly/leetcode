@@ -1,11 +1,13 @@
-package main
+package p455
 
 import (
 	"sort"
 )
 
-// https://leetcode-cn.com/problems/assign-cookies/
-func findContentChildren(g []int, s []int) int {
+// URL: https://leetcode-cn.com/problems/assign-cookies/
+
+// FindContentChildren assign cookies
+func FindContentChildren(g []int, s []int) int {
 	// 将胃口值和尺寸值数组排序，这样只需要按顺序去分配饼干即可。
 	sort.Ints(g)
 	sort.Ints(s)
