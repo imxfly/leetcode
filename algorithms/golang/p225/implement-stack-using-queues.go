@@ -4,6 +4,8 @@ import (
 	"container/list"
 )
 
+// URL: https://leetcode-cn.com/problems/implement-stack-using-queues/
+
 // MyStack my stack
 type MyStack struct {
 	q *list.List
@@ -11,9 +13,7 @@ type MyStack struct {
 
 // Constructor Initialize your data structure here.
 func Constructor() MyStack {
-	stack := MyStack{list.New()}
-
-	return stack
+	return MyStack{list.New()}
 }
 
 // Push element x onto stack.
